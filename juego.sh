@@ -4,7 +4,7 @@ num=$(( $RANDOM % 100 + 1 ))
 opcion=101
 until [[ $opcion -eq 0 ]]; do
   clear
-  echo "Introduce  0 para rendirte $num"
+  echo "Introduce  0 para rendirte: "
   read -p "Introduce un numero entre 1 y 100: " opcion
   if [[ $opcion -lt $num && $opcion -ne 0 ]]; then
     echo "$opcion es menor que el numero buscado"
