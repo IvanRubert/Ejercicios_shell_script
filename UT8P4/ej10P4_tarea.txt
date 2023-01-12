@@ -1,0 +1,5 @@
+Comandos para crear la tarea con crontab:
+
+sudo crontab -e
+
+00 01 * * * /home/admin01/Escritorio/Contenido_github/Ejercicios_shell_script/UT8P4/ej7P4.sh (Añadir al final)
